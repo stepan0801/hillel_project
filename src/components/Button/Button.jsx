@@ -3,7 +3,7 @@
 const Button = (props) => {
 	console.log(props);
 	return (
-		<button type={props.type} count={props.count}>{props.text}</button>
+		<button>{props.text}</button>
 	)
 }
 export default Button
